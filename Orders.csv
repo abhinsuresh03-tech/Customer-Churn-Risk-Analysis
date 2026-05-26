@@ -1,0 +1,11 @@
+user_id,order_id,order_date,amount,purchase_number,prev_amount,prev_order_date,trend_type,prev_trend,latest_rank,purchase_type,days_since_last_order,risk_flag,risk_reason
+1,104,01-02-2024,1200,4,800,20-01-2024,Increasing,Increasing,1,Repeat,12,Safe,NULL
+2,105,05-01-2024,400,1,NULL,NULL,no_prev,NULL,1,First,NULL,Safe,NULL
+3,108,25-01-2024,400,3,900,15-01-2024,Decreasing,Decreasing,1,Repeat,10,Risk,Declining Spend
+4,111,01-03-2024,700,3,300,01-02-2024,Increasing,Increasing,1,Repeat,29,Safe,NULL
+5,114,15-01-2024,900,3,700,08-01-2024,Increasing,Increasing,1,Repeat,7,Safe,NULL
+6,116,20-01-2024,600,2,600,03-01-2024,Same,no_prev,1,Repeat,17,Safe,NULL
+7,117,12-01-2024,2000,1,NULL,NULL,no_prev,NULL,1,First,NULL,Safe,NULL
+8,120,20-01-2024,400,3,200,10-01-2024,Increasing,Decreasing,1,Repeat,10,Safe,NULL
+9,122,05-03-2024,700,2,500,05-01-2024,Increasing,no_prev,1,Repeat,60,Risk,Inactive 30+ Days
+10,127,09-01-2024,150,5,140,07-01-2024,Increasing,Increasing,1,Repeat,2,Safe,NULL
